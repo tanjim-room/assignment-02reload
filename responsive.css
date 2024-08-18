@@ -91,4 +91,15 @@
         align-items: center;
         padding:50px 0px;
     }
+    .bmi-container{
+        flex-direction: column;
+    }
+    .bmi-chart{
+        width: 100%;
+        
+    }
+    .bml-calculate{
+        width: 100%;
+        
+    }
 }
