@@ -120,22 +120,85 @@ main{
     border: none;
     border-radius: 3rem;
     font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
 }
 .download-btn{
+    font-weight: 600;
     padding: 15px 30px;
     border: 1px solid white;
     border-radius: 3rem;
     font-size: 1.2rem;
+    color: white;
+    background: transparent;
 }
 .hero-img{
     width: calc((100% - 15px) / 2);
     display: flex;
     align-items: end;
     justify-content: flex-end;
+    position: relative;
 }
 
 .hero-img img{
     width: 80%;
+}
+
+.video{
+    position: absolute;
+    right: 27vw;
+    bottom: 15vw;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.5);
+    border-radius: 7px;
+    padding: 20px 20px;
+ }
+ .video2{
+    position: absolute;
+    left: 28vw;
+    bottom: 36vw;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.5);
+    border-radius: 7px;
+    padding: 15px 15px;
+ }
+ #circle{
+    color: #E6533C;
+    font-size: 3rem;
+ }
+ .red-circle{
+
+ }
+ .text{
+    
+ }
+ 
+.video-number{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.video-des{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.5);
+}
+.flexo{
+    font-size:2rem ;
 }
 
 .habit-area{
@@ -417,6 +480,9 @@ td{
     padding: 20px 100px;
     color: white;
     font-size: 1.2rem;
+    display: inline-block;
+    text-decoration: none;
+
 }
 
 /* Team Area  */
@@ -548,11 +614,9 @@ td{
 }
 .col-1{
     width: 60%;
-    border: 1px solid red;
 }
 .col-4{
     width: 40%;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
