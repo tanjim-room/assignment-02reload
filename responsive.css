@@ -1,0 +1,83 @@
+@media screen and (max-width:576px) {
+    .hamburger{
+        display: block;
+    }
+    .nav-box{
+        display: none;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        border: 1.5px solid rgba(255, 255, 255, 0.2);
+        border-radius: 5rem;
+        padding: 14px 4px;
+        
+    }
+    .hero-area{
+        flex-direction: column;
+    }
+    .hero-content{
+        width: calc((100% - 30px));
+    }
+    .hero-img{
+        width: calc((100% - 30px));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .hero-img img{
+        width: 100%;
+    }
+    .habit-cards{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .habit-description{
+        text-align: center;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+        padding: 20px 0px;
+        padding-bottom: 60px ;
+        width: calc((100% - 30px));
+        margin: 0 auto;
+    }
+    .habit-des{
+        width: (100% - 30px);
+        text-align: center;
+        padding: 5px 60px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .habit-card{
+        padding-bottom: 25px;
+    }
+    .run-element{
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15vw; */
+        flex-direction: column;
+        background-color: transparent;
+        gap: 2vh;
+    }
+    .run-content{
+        width: calc((100% - 30px));
+    }
+    .run-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .ex-btn{
+        padding: 15px 120px;
+    }
+    .run-img{
+        width: calc((100% - 30px));
+        border-radius: 16px;
+
+    }
+    .run-img img{
+        height: auto;
+    }
+}
