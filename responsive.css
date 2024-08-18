@@ -102,4 +102,8 @@
         width: 100%;
         
     }
+    .team-gallary{
+       
+        grid-template-columns: repeat(1,1fr);
+    }
 }

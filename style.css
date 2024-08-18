@@ -418,3 +418,87 @@ td{
     color: white;
     font-size: 1.2rem;
 }
+
+/* Team Area  */
+
+.team-area{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    color: black;
+    padding: 70px 0px;
+}
+.team-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+.team-description{
+    text-align: center;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px 10px;
+    margin-bottom:50px;
+}
+.team-gallary{
+    margin: 0px 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    display: grid;
+    padding: 30px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.team-img1{
+    border-radius: 10px;
+}
+.team-gallary img{
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.team-img2{
+    border-radius: 10px;
+}
+.team-img3{
+    border-radius: 10px;
+}
+.team-img4{
+    border-radius: 10px;
+}
+.team-img5{
+    border-radius: 10px;
+}
+.team-img6{
+    border-radius: 10px;
+}
+
+.team-img{
+    position: relative;
+}
+.teamo{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+ }
+.name,.designation{
+    background: none;
+
+
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: white;
+}
+.designation{
+    font-size: 1rem;
+    color: white;
+    opacity: 70%;
+}
+
+footer
