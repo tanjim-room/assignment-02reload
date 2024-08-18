@@ -80,4 +80,15 @@
     .run-img img{
         height: auto;
     }
+    .header-content{
+        width: calc((100% - 30px));
+        padding: 0px 0px;
+    }
+    .bmi-header{
+        margin: 0px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:50px 0px;
+    }
 }

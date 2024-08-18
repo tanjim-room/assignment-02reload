@@ -202,7 +202,8 @@ main{
 .run-area{
     margin: 0px 30px;
     background: rgb(0, 0, 0);
-    padding: 100px 0px;
+    padding-bottom: 0px;
+    padding-top: 100px;
 }
 .run-container{
     background-color: #343434;
@@ -263,7 +264,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
+    padding:100px 0px;
 }
 .header-content{
     width: calc((60% - 30px));
@@ -280,5 +281,140 @@ main{
     padding: 10px 0px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
+}
 
+.bmi-title{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: white;
+}
+table,thead,tr,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+.bmi-table{
+   padding: 40px 0px;
+   
+}
+td{
+    padding: 15px 25px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+.heading{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+   
+}
+.bmi-cal{
+    background: rgb(34, 34, 34);
+    padding: 50px 0px;
+    margin: 0px auto;
+}
+.bmi-container{
+    width: calc((100% - 60px));
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.bmi-chart{
+    width: 50%;
+    
+}
+.bml-calculate{
+    width: 50%;
+    
+}
+
+
+.calculate-title{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: white;
+}
+.cal-des{
+    padding: 15px 0px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 150%;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.input-field{
+    width: 100%;
+    border: none;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+}
+
+.input-field::placeholder{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.bmi-calculate .bmi-form{
+    width: 100%;
+}
+
+.bmi-form{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(9,1fr);
+    gap: 10px;
+}
+.line-1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 3;
+    /* background-color: #E6533C; */
+}
+.line-2{
+    grid-column: 7/span 6;
+    grid-row: 1/span 3;
+    /* background-color: #e63cd8; */
+}
+.line-3{
+    grid-column: 1/span 6;
+    grid-row: 4/span 3;
+    /* background-color: #56e63c; */
+}
+.line-4{
+    grid-column: 7/span 6;
+    grid-row: 4/span 3;
+    position: relative;
+
+    /* background-color: #3c53e6; */
+}
+.line-5{
+    position: relative;
+    grid-column: 1/span 12;
+    grid-row: 7/span 3;
+    /* background-color: #b7890a; */
+}
+#down{
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 15px;
+    left: 85%;
+}
+#down2{
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 15px;
+    left: 90%;
+}
+
+.cal-btn{
+    margin: 30px 0px;
+    padding: 20px 100px;
+    color: white;
+    font-size: 1.2rem;
 }
